@@ -1,0 +1,96 @@
+/* reset do CSS*/
+* {
+  margin: 0;
+  padding: 0;
+  font-family: Helvetica;
+}
+
+/* cabeçalho */
+h1,
+p {
+  text-align: center;
+}
+
+h1 {
+  margin-top: 40px;
+  margin-bottom: 20px;
+  color: #4a87e8;
+}
+
+/* galeria de imagens */
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.card {
+  display: inline-block;
+  width: 200px;
+  margin: 25px;
+  border: 1px solid #4a87e8;
+}
+
+.card-image {
+  height: 200px;
+  background-size: cover;
+}
+
+.card-1 .card-image {
+  background-image: url("../img/amsterdan.jpg");
+}
+
+.card-2 .card-image {
+  background-image: url("../img/argentina.jpg");
+}
+
+.card-3 .card-image {
+  background-image: url("../img/brasil.jpg");
+}
+
+.card-4 .card-image {
+  background-image: url("../img/dubai.jpg");
+}
+
+.card-5 .card-image {
+  background-image: url("../img/eua.jpg");
+}
+
+.card-6 .card-image {
+  background-image: url("../img/japao.jpg");
+}
+
+.card-7 .card-image {
+  background-image: url("../img/portugal.jpg");
+}
+
+.card-8 .card-image {
+  background-image: url("../img/roma.jpg");
+}
+.btn {
+  display: block;
+  background-color: #4a87e8;
+  color: #fff;
+  margin-top: 20px;
+  text-decoration: none;
+  padding: 10px;
+  border: 2px solid transparent;
+  font-weight: bold;
+  transition: 0.5s;
+  border-radius: 5px;
+  text-transform: uppercase;
+}
+
+.btn:hover {
+  background-color: #fff;
+  color: #4a87e8;
+  border-color: #4a87e8;
+}
+
+.card-description {
+  padding: 20px 10px;
+}
+
+.card-description h2{
+    font-size: 16px;
+}
